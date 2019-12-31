@@ -39,5 +39,9 @@ Crystal report SAP: There are different crystal reporting system which can be in
 This application runs on doctor’s mobile android phone or tab. Every doctor has create account with his/her email and user ID. When the doctor created an account with the system, he/she is taken to the profile update form. Then the doctor enters
 his/her name, designation, specialty, institution, address, contact number and the visiting time to complete the profile. Once profile is completed he/she can login to the app and see his own patient’s list by date.
 
+![Doctors side app](https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Android%20App/screens/Doctor-Side%20Application.png)
+
 ### 2. Patient’s Window
 This application runs on the client’s smart devices to connect the desired doctor. No login or registration is required for this app. Anyone using this app will easily find different categories of specialty. Then he/she will be able to find doctors from different localities. The patient will choose doctor and see doctor’s detail informa- tion. Then he/she will click the “Get Appointment” button to seek for appointment. An automated scheduling system will run on the app server based on the doctor’s predefined time. This will check for free space and make the patient known about the appointment date and time. Eventually, the app will notify the patient before the appointment. Only one has to enter name, age and phone number for seeking appointment.
+
+![Patient side app](https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Android%20App/screens/Patient-Side%20Application.png)
