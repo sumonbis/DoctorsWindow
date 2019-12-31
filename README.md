@@ -9,6 +9,10 @@ The doctor will enter every patient’s information and generate prescription us
 1. Electronic prescription module
 2. Patient scheduling and queue management using SMS
 
+![Desktop app](https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Desktop%20App/screens/batch1.png)
+
+![Desktop app](https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Desktop%20App/screens/batch2.png)
+
 ### Electronic Prescription Module
 - Electronic prescription handling
 - Medicine suggestion
