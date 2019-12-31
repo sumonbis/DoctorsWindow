@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bablabd.doctorswindow.MainActivity" >
+
+       <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="Edit Profile"
+        android:icon="@drawable/edit"
+        app:showAsAction="always"/>
+     
+      <item
+        android:id="@+id/profilepic"
+        android:orderInCategory="100"
+        android:title="Profile Picture"
+        android:icon="@drawable/user"
+        app:showAsAction="always"/>
+      <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"/>
+      
+
+</menu>

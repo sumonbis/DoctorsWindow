@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/animation"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/pateint" />
+
+    <TextView
+        android:id="@+id/apppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Patient\'s Window"
+        android:textColor="#01137A"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+ 
+
+        <TextView
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="● Tap to start"
+            android:textColor="#DAE8E7"
+            android:textSize="12dp" />
+    
+
+</LinearLayout>

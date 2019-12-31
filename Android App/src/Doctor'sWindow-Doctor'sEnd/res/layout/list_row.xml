@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:src="@drawable/iconpatient"
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Movie patientNameTV -->
+
+    <!-- patientAgeTV -->
+    <TextView
+        android:id="@+id/patientAgeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patientNameTV"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="1dip"
+        android:text="Age:"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="14dp" />
+    
+    <!-- patientSexTV -->
+    <TextView
+        android:id="@+id/patientSexTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patientAgeTV"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Sex:"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <!-- Release Year -->
+
+    <TextView
+        android:id="@+id/patientMobileNoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patientSexTV"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:text="Mobile No:"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/patientSerialTV"
+        android:text="20."
+         android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        />
+
+    <TextView
+        android:id="@+id/patientNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/patientSerialTV"
+        android:layout_alignBottom="@+id/patientSerialTV"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/patientSerialTV"
+        android:text="Patient&apos;s Name"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

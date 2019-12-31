@@ -1,0 +1,10 @@
+E:\Doctors Window\Doctors Window\bin\Debug\Doctors Window.exe.config
+E:\Doctors Window\Doctors Window\bin\Debug\Doctors Window.exe
+E:\Doctors Window\Doctors Window\bin\Debug\Doctors Window.pdb
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors_Window.Properties.Resources.resources
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors Window.csproj.GenerateResource.Cache
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors Window.exe
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors Window.pdb
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors_Window.LoginForm.resources
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors Window.csprojResolveAssemblyReference.cache
+E:\Doctors Window\Doctors Window\obj\Debug\Doctors_Window.Doctors_Window.resources

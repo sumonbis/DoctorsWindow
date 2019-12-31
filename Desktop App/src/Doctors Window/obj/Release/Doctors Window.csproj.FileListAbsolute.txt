@@ -1,0 +1,10 @@
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\bin\Release\Doctors Window.exe.config
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\bin\Release\Doctors Window.exe
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\bin\Release\Doctors Window.pdb
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors_Window.Doctors_Window.resources
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors_Window.LoginForm.resources
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors_Window.Properties.Resources.resources
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors Window.csproj.GenerateResource.Cache
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors Window.exe
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors Window.pdb
+C:\Users\Bablas\Desktop\Doctors Window\Doctors Window\obj\Release\Doctors Window.csprojResolveAssemblyReference.cache

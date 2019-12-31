@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/getappointmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Get Appointment" />
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Call" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/doctorsNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/yellow"
+                android:padding="8dp"
+                android:text="Doctor\&apos;s Name"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qualificationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Qualification"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/specialityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Speciality"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/designationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Desigation"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/instituteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Institute"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/addressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Address"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/phoneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Phone No."
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/mobileTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="6dp"
+                android:background="@drawable/yellow"
+                android:text="Mobile No."
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/visitingtimeTextView"
+                android:layout_width="match_parent"
+                android:padding="6dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/yellow"
+                android:text="Visiting Time"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

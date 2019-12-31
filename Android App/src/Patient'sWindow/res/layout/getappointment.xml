@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/patientNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow"
+                android:ems="10"
+                android:hint="Patient\&apos;s Name"
+                android:inputType="textPersonName"
+                android:padding="10dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/patientAgeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yellow"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:padding="10dp" />
+
+            <Spinner
+                android:id="@+id/patientSexSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/yellow"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/patientMobileEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yellow"
+                android:ems="10"
+                android:hint="Mobile No."
+                android:inputType="phone"
+                android:padding="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/datetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.58"
+                    android:background="@drawable/yellow"
+                    android:padding="10dp"
+                    android:text="TextView"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/datebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.58"
+                    android:onClick="setDate"
+                    android:padding="10dp"
+                    android:text="Pick Date"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/appbtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                 android:padding="10dp"
+                  android:textSize="20dp" 
+                android:layout_marginTop="13dp"
+                android:text="Get Appointment" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
